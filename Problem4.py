@@ -1,0 +1,59 @@
+print('Exercicio_1')
+animais_favoritos=['papagaio','cachorro','galinha','cavalo','sabia']
+print(animais_favoritos)
+print(animais_favoritos[2])
+animais_favoritos[2]=('fim-fim')
+print(animais_favoritos[2])
+AF=animais_favoritos
+AF.append('tartaruga')
+AF.insert(0,'pato')
+print(AF)
+AF.insert(2,'boi')
+print(AF)
+AF.pop(0)
+AF.pop(5)
+print(AF)
+print('Exercicio_2')
+taxa=('sapiens','erectus','neanderthalensis'
+)
+print(taxa)
+print(taxa[1])
+print(type(taxa))
+for word in taxa:
+ print(word)
+print('done')
+taxa=sorted(taxa)
+print(taxa)
+taxa1=sorted(taxa,key=len)
+print(taxa1)
+print('Exercise_3')
+my_list=['A','bb','ccc']
+list_copy=my_list
+print(my_list)
+list_copy.append('dddd')
+print(my_list)
+my_list2=['a','bb','DD']
+list_copy2=my_list2.copy()
+print(my_list2)
+list_copy2.append('CCC')
+print(my_list2)
+print('Exercicio_4')
+count=0
+while count < 101:
+ print("count",count)
+ count+=1
+ if count == 101:
+  break
+print("done")
+print('Exercicio_5')
+Number=(1)
+fatorial=(1)
+while fatorial < 3:
+ fatorial+=1
+ Number=Number*fatorial
+ print(Number)
+print("done")
+print('Exercicio_6')
+Numeros=[101,2,15,22,95,33,2,27,72,15,52]
+print(Numeros)
+

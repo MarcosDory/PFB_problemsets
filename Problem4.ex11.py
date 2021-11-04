@@ -1,0 +1,6 @@
+DNA=['ATGCCCGGCCCGGC','GCGTGCTAGCAATACGATAAACCGG','ATATATATCGAT','ATGGGCCC']
+for word in DNA:
+ A=DNA[0]
+ print(len(A),'	',A)
+ list.pop(0)
+ 
